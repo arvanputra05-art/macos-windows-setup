@@ -9,4 +9,6 @@ This repository bundles third-party assets. Their licenses are preserved under `
 | WhiteSur icon theme — user-trash | https://github.com/vinceliuice/WhiteSur-icon-theme | GPL-3.0 (`LICENSES/GPL-3.0.txt`) | `assets/icons/trash-whitesur.png` |
 | Night city wallpaper | https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b | Unsplash License (https://unsplash.com/license) | `assets/wallpapers/city-night-wallpaper.jpg` |
 
-The remaining files are local setup notes and configuration; they contain no credentials or tokens.
+`bin/GlassDock.exe` SHA256: `BF395E585E8A84CB3FA1AE3B8D5287A84CEC8B694215ED64A1C21F92414EB52A`.
+
+Files authored in this repository (notes, configuration, scripts) are licensed under MIT; see `LICENSE`. They contain no credentials or tokens.
