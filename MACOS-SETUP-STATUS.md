@@ -2,7 +2,7 @@
 
 ## What is actually on screen now
 - **Dock (bottom, glass, centered icons 40px, magnify 64px, spacing 3)**: GlassDock — pinned apps + **running apps appear automatically** with running dots, magnification on hover, genie minimize (disedot ke dock), glass bar
-- **Menu bar atas (1280x30 pada 1280x720 / 150% DPI)**: logo, Finder, menu, wifi, baterai, jam, Spotlight (klik = Flow Launcher)
+- **Menu bar atas (1280x30 pada 1280x720 / 150% DPI)**: logo, Finder, menu, wifi, baterai, jam, Spotlight (klik = Flow Launcher); pill Dynamic Island bawaan GlassDock aktif (`DynamicIsland=True`)
 - **Windows taskbar: hidden** by GlassDock itself (`HideTaskbar=True`); restored when GlassDock quits
 - **Desktop: completely clean** — desktop icons hidden, wallpaper `Pictures\city-night-wallpaper.jpg` (Unsplash night city, Fill), ASUS ScreenXpert stopped
 - **Spotlight search**: `Win + Space` (Flow Launcher, dark, Inter font)
@@ -27,6 +27,7 @@
 - Icon size: `IconSize=40` (dulu 48, sekarang lebih kecil), zoom: `MagnifySize=64` (dulu 80), `Magnify=True`, `DockSpacing=3`
 - Glass: `LiveGlass=False` (blur statis, ringan/anti patah-patah; `True` = blur live, lebih berat), `GlassTint=50` (0–100), `Appearance=2`
 - Hide/show top bar: `ShowMenuBar=True`
+- Dynamic Island bawaan: `DynamicIsland=True` (pill hitam tengah atas untuk media/timer/alert); set `False` lalu restart GlassDock jika tidak dipakai
 - Extra widgets panels: `Widgets=False`
 - Running apps in dock: `ShowRunning=True`, dots `Indicators=True`
 - Anti patah-patah: `AppGenie=True` dipertahankan (efek Mac), sedangkan `LiveGlass=False`, `IncludePreviewUpdates=False`, `TrafficLights=False`
